@@ -1,0 +1,18 @@
+.container {
+  width: 1100px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background: blue;
+}
+
+.item {
+  width: 200px;
+  height: 100px;
+  border: solid black 1px;
+}
+
+.item-13 {
+  flex-grow: 1;
+}

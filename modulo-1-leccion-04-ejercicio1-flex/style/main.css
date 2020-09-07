@@ -1,0 +1,13 @@
+.container {
+  background-color: blue;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  border: 1px solid white;
+  height: 100px;
+  width: 100px;
+}

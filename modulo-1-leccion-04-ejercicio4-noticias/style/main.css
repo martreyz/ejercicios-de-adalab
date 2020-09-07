@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 50%;
+  box-sizing: border-box;
+  border: solid black 1px;
+  padding: 10px;
+  text-align: center;
+}
+
+.item-05 {
+  width: 100%;
+  order: -1;
+  flex-grow: 2;
+  justify-content: center;
+  text-align: center;
+}
+
+img {
+  height: 50px;
+  width: 100px;
+}

@@ -1,0 +1,17 @@
+.container {
+  height: 100px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background: blue;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+  padding: 0px;
+}
