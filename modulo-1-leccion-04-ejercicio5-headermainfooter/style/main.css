@@ -1,0 +1,31 @@
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #88e8f3;
+}
+.header {
+  height: 100px;
+  border: solid 1px black;
+  box-sizing: border-box;
+  background-color: #88e7f3;
+  padding: 20px;
+}
+
+.main {
+  height: min-content;
+  border: solid 1px black;
+  box-sizing: border-box;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.footer {
+  height: 100px;
+  border: solid 1px black;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #88e7f3;
+  align-self: flex-end;
+}

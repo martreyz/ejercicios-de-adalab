@@ -1,0 +1,48 @@
+.container {
+  width: 100vw;
+  max-width: 960px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #ff99f3;
+  align-items: flex-start;
+  justify-content: stretch;
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  box-sizing: border-box;
+  border: solid 1px white;
+}
+
+.item {
+  text-align: center;
+  box-sizing: border-box;
+  border: solid 1px white;
+}
+
+.main {
+  text-align: left;
+  width: 50%;
+  flex-grow: 1;
+  height: 100vh;
+}
+
+.aside-01 {
+  width: 25%;
+  flex-grow: 1;
+  height: 100vh;
+}
+
+.aside-02 {
+  width: 25%;
+  flex-grow: 1;
+  height: 100vh;
+}
+
+.footer {
+  width: 100%;
+  align-self: flex-end;
+}
