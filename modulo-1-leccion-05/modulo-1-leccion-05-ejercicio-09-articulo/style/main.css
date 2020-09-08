@@ -1,0 +1,30 @@
+.body {
+  border: solid black 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main {
+  margin-top: 106px;
+}
+
+.autor {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.titular {
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.parrafo {
+  font-size: 18px;
+  margin-bottom: 27px;
+}
+
+.enlace {
+  padding: 8px 16px 8px 16px;
+  margin-left: -16px;
+}

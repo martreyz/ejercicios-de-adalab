@@ -1,0 +1,11 @@
+.header {
+  background-color: mediumpurple;
+  position: fixed;
+  width: 100vw;
+  z-index: 990;
+}
+
+.main {
+  position: relative;
+  top: 50px;
+}

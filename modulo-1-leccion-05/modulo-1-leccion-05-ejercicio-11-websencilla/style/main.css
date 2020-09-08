@@ -1,0 +1,32 @@
+.body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  margin-left: 10px;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.cookies {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  background-color: yellow;
+}

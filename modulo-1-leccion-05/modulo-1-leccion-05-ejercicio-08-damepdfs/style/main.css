@@ -1,0 +1,18 @@
+.main {
+  width: 500px;
+  height: 20px;
+  border-bottom: solid 1px rgb(214, 211, 211);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.filetype {
+  background-color: tomato;
+  color: white;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+}
