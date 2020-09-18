@@ -69,6 +69,7 @@
   margin-top: 20px;
   height: 30px;
   border: none;
+  border-radius: 3px;
 }
 
 label {
