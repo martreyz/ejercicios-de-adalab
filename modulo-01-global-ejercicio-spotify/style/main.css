@@ -1,0 +1,98 @@
+/* fonts */
+@font-face {
+  font-family: Circular;
+  src: url("https://sp-bootstrap.global.ssl.fastly.net/8.12.1/fonts/circular-light.woff2")
+      format("woff2"),
+    url("https://sp-bootstrap.global.ssl.fastly.net/8.12.1/fonts/circular-light.woff")
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Circular;
+  src: url("https://sp-bootstrap.global.ssl.fastly.net/8.12.1/fonts/circular-black.woff2")
+      format("woff2"),
+    url("https://sp-bootstrap.global.ssl.fastly.net/8.12.1/fonts/circular-black.woff")
+      format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Reset CSS */
+* {
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: "Circular";
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.headerlist {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.headeritem {
+  padding-right: 15px;
+  padding-left: 15px;
+  display: inline-block;
+}
+
+.aheader {
+  color: white;
+}
+
+.headeritem {
+  text-align: center;
+}
+
+.headerregistrarse {
+  border-left: 1px solid white;
+  line-height: 14px;
+  padding-left: 30px;
+}
+
+.headerdescargar {
+  padding-right: 30px;
+}
+
+.headerlogo {
+  object-fit: contain;
+  height: 30px;
+}
+
+.maintitle {
+  font-size: 90px;
+  max-width: 90%;
+  padding-left: 30px;
+}
+
+.main {
+  height: 100vh;
+}
+
+.sectionmain {
+  height: 50%;
+}
+
+.sectionmain-01 {
+  background-color: #529cf1;
+}
