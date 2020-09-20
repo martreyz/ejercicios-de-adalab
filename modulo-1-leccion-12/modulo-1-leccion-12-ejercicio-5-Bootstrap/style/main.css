@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+.item {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.item1 {
+  background-color: lightpink;
+}
+
+.item2 {
+  background-color: purple;
+}
+
+.item3 {
+  background-color: coral;
+}
+
+.item4 {
+  background-color: lightblue;
+}
+
+.row {
+  height: 20vh;
+}
+
+.row2 {
+  height: 60vh;
+}
