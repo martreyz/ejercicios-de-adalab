@@ -1,0 +1,24 @@
+body {
+  width: 100%;
+  height: 300vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: ease 3s;
+}
+
+body:hover {
+  height: 100vh;
+}
+
+.container {
+  width: 50%;
+  height: 50vh;
+  background: white;
+  color: black;
+  font-size: 40px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
