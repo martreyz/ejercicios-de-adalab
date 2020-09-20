@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+.card-header {
+  width: 100%;
+  text-align: center;
+}
+
+.item {
+  padding: 0px;
+}
+
+.btn {
+  margin-top: 20px;
+  border: 1px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h2 {
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}

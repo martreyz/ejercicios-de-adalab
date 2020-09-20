@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.item {
+  background-color: aquamarine;
+  box-sizing: border-box;
+  border: 2px solid white;
+  object-fit: contain;
+  padding: 0px;
+}
+
+.header,
+.footer {
+  height: 80px;
+  width: 100%;
+  background: black;
+}
+
+.row {
+  height: 500px;
+}
+
+.container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.hero {
+  height: 200px;
+}
