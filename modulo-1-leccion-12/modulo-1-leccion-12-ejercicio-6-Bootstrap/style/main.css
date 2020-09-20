@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+.item {
+  background-color: aquamarine;
+  box-sizing: border-box;
+  border: 2px solid white;
+}
+
+.row {
+  height: 100px;
+  background-color: lightgray;
+}
