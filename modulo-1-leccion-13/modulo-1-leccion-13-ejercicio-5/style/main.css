@@ -1,0 +1,29 @@
+.mainsection {
+  width: 50%;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  position: relative;
+  top: -20px;
+  left: 20px;
+  color: #999;
+  cursor: text;
+  transition: all 0.15s ease-in-out 0s;
+}
+
+.form-textbox:focus ~ .form-label,
+.form-textbox:valid ~ .form-label {
+  top: -35px;
+  left: 0;
+  font-size: 0.8em;
+  color: inherit;
+  cursor: pointer;
+}
