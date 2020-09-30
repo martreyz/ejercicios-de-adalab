@@ -1,0 +1,13 @@
+.main {
+  background-color: pink;
+}
+
+.main__title {
+  color: red;
+}
+
+.new_class {
+  background: violet;
+  color: purple;
+  transform: scale(2);
+}
