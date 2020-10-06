@@ -1,0 +1,12 @@
+.button,
+.button2 {
+  width: 100px;
+  height: 45px;
+  border-radius: 15px;
+  border: none;
+  background-color: aqua;
+}
+
+.button-click {
+  background-color: purple;
+}
