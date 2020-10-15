@@ -28,11 +28,11 @@ const listItem = document.querySelectorAll(".listItem");
 function checkCheckbox(event) {
   for (let i = 0; i < checkbox.length; i++) {
     if (checkbox[i].checked == true) {
-      let prueba = listItem[i].innerHTML.strike();
-      listItem[i].innerHTML = prueba;
+      listItem[i].innerHTML = listItem[i].innerHTML.strike();
+      tasks[i].completed = true;
     } else if (checkbox[i].checked == false) {
-      let prueba2 = tasks[i].name;
-      listItem[i].innerHTML = prueba2;
+      listItem[i].innerHTML = tasks[i].name;
+      tasks[i].completed = false;
     }
   }
 }
