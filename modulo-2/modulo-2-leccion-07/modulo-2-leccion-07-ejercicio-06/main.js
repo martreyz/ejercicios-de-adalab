@@ -11,7 +11,6 @@ function addMovie(event) {
   const inputValue = input1.value;
   const inputValue2 = input2.value;
   movies.push(inputValue);
-
   movies.push(inputValue2);
   for (const movie2 of movies) {
     answer.innerHTML =
