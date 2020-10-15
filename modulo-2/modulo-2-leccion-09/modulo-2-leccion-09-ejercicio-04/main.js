@@ -24,7 +24,6 @@ for (let i = 0; i < tasks.length; i++) {
 
 const checkbox = document.querySelectorAll(".checkbox");
 const listItem = document.querySelectorAll(".listItem");
-let indexCheckbox;
 
 function checkCheckbox(event) {
   for (let i = 0; i < checkbox.length; i++) {
