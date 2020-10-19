@@ -70,7 +70,7 @@ const studentsWorkingInGoogle = ["id-2", "id-3", "id-5", "id-9"];
 
 // TÚ CÓDIGO AQUÍ
 
-const textContainer = document.querySelector(".js-result");
+// const textContainer = document.querySelector(".js-result");
 // let namesAcc = " ";
 // for (let promoName = 0; promoName < promos.length; promoName++) {
 //   namesAcc += "<li>" + promos[promoName].name + "</li>";
@@ -122,31 +122,63 @@ const textContainer = document.querySelector(".js-result");
 
 //5
 
-let names4Acc = " ";
-let promName = " ";
-let studentDetails = " ";
-let totalDetails = " ";
+// let names4Acc = " ";
+// let promName = " ";
+// let studentDetails = " ";
+// let totalDetails = " ";
 
-for (let promo4Name = 0; promo4Name < promos.length; promo4Name++) {
-  promName = promos[promo4Name].name;
+// for (let promo4Name = 0; promo4Name < promos.length; promo4Name++) {
+//   promName = promos[promo4Name].name;
 
-  for (
-    let promoDetI = 0;
-    promoDetI < promos[promo4Name].students.length;
-    promoDetI++
-  ) {
-    studentDetails += `<li>${promos[promo4Name].students[promoDetI].name}, ${promos[promo4Name].students[promoDetI].age}</li>`;
+//   for (
+//     let promoDetI = 0;
+//     promoDetI < promos[promo4Name].students.length;
+//     promoDetI++
+//   ) {
+//     studentDetails += `<li>${promos[promo4Name].students[promoDetI].name}, ${promos[promo4Name].students[promoDetI].age}</li>`;
+//   }
+//   names4Acc += ` <li>
+//   <p>Nombre: ${promName}</p>
+//   <ul>
+//     ${studentDetails}
+//   </ul>
+//   </li>`;
+//   studentDetails = " ";
+// }
+// textContainer.innerHTML = `<ul>${names4Acc}</ul>`;
+
+// for (let i = 0; i < 10; i++) {
+//   console.log("potato");
+// }
+
+// 6
+
+// const textContainer = document.querySelector(".js-result");
+
+// let accData = " ";
+// let accDataPromos = " ";
+// for (let i = 0; i < promos.length; i++) {
+//   for (let stud = 0; stud < promos.length; stud++) {
+//     accData += `<li id=${promos[i].students[stud].id}>${promos[i].students[stud].name}, ${promos[i].students[stud].age}</li>`;
+//   }
+//   accDataPromos += `<li><p>Nombre: ${promos[i].name}</p><ul>${accData}</ul></li>`;
+//   accData = " ";
+// }
+
+// textContainer.innerHTML = `<ul>${accDataPromos}</ul>`;
+
+const textContainer = document.querySelector(".js-result");
+
+let accData = " ";
+let accDataPromos = " ";
+for (let i = 0; i < promos.length; i++) {
+  for (let stud = 0; stud < promos.length; stud++) {
+    if (promos[i].students[stud].age % 2 === 0) {
+      accData += `<li id=${promos[i].students[stud].id}>${promos[i].students[stud].name}, ${promos[i].students[stud].age}</li>`;
+    }
   }
-  names4Acc += ` <li>
-  <p>Nombre: ${promName}</p>
-  <ul>
-    ${studentDetails}
-  </ul>
-  </li>`;
-  studentDetails = " ";
+  accDataPromos += `<li><p>Nombre: ${promos[i].name}</p><ul>${accData}</ul></li>`;
+  accData = " ";
 }
-textContainer.innerHTML = `<ul>${names4Acc}</ul>`;
 
-for (let i = 0; i < 10; i++) {
-  console.log("potato");
-}
+textContainer.innerHTML = `<ul>${accDataPromos}</ul>`;
