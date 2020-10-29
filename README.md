@@ -1,10 +1,10 @@
-##Adalab exercises
+## Adalab exercises
 
 This repository contains the exercises made in Adalab during the three modules: HTML&CSS, JavaScript and React.
 
 The exercises are divided by folders that follow the index bellow:
 
--#Module 1 - HTML&CSS
+# -Module 1 - HTML&CSS
 
 1. Introduction
 2. My first website
@@ -23,7 +23,7 @@ The exercises are divided by folders that follow the index bellow:
 
 [Repository of the final evaluation of the module](https://github.com/martreyz/modulo-1-evaluacion-final-martreyz)
 
--#Module 2 - JavaScript
+# -Module 2 - JavaScript
 
 1. Introduction I
 2. Introduction II
@@ -40,7 +40,7 @@ The exercises are divided by folders that follow the index bellow:
 13. Array functional methods
 14. Asynchrony and timers
 
--#Module 3 - React
+# -Module 3 - React
 
 1. ES6 classes
 2. Introduction to React I
@@ -57,4 +57,4 @@ The exercises are divided by folders that follow the index bellow:
 13. JavaScript testing
 14. Refactoring
 
-Specific requirements for the exercises can be found in:[Adalab](https://books.adalab.es/materiales-front-end-k/)
+Specific requirements for the exercises can be found in: [Adalab](https://books.adalab.es/materiales-front-end-k/)
