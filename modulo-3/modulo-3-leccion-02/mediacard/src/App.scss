@@ -50,4 +50,13 @@
     display: inline-block;
     text-align: right;
   }
+  &-heart {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
+}
+
+.App-liElement {
+  list-style-type: none;
 }
