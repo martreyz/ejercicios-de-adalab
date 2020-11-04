@@ -1,0 +1,10 @@
+Hola!
+Por motivos varios relacionados con la súper lentitud de mi ordenador al crear proyectos he hecho los cuatro ejercicios en el mismo. Están ordenados de la siguiente forma: 
+
+Ejercicio 1: Trabajo íntegro sobre el archivo ItemList.js, trabajando con las props como array. La primera parte del ejercicio se corresponde a las líneas comentadas de la 41 ala 61, la segunda parte (filtrando por menores de 10€) se corresponde al resto del código sin comentar. 
+
+Ejercicio 2: Componente HalfPage y líneas comentadas de componente App.js
+
+Ejercicio 3: Desarrollado de forma íntegra en el componente Item.js, usando ItemList.js para hacer pruebas de errores.
+
+Ejercicio 4: Desarrollado de forma íntegra en el componente Item.js, usando ItemList.js para hacer pruebas de errores.

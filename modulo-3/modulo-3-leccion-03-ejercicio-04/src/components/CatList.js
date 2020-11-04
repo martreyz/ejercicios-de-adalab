@@ -16,6 +16,9 @@ class CatList extends React.Component {
           <li>
             <RandomCat />
           </li>
+          <li>
+            <RandomCat />
+          </li>
         </ul>
       </section>
     );
