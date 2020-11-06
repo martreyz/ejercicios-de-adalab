@@ -2,7 +2,8 @@ import "../App.css";
 // import TextInput from "./TextInput";
 // import MIMIMItranslator from "./MIMIMItranslator";
 import React from "react";
-import ItemList from "./ItemList";
+// import ItemList from "./ItemList";
+import Form from "./Form";
 
 class App extends React.Component {
   // constructor(props) {
@@ -27,7 +28,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <ItemList />
+        <Form />
       </div>
     );
   }
