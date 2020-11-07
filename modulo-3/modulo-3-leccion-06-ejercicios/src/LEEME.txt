@@ -1,0 +1,13 @@
+Ejercicio 1 : Componentes Input.js y Parragraph.js, con parte comentada de App.js indicada como "ejercicio 1"
+
+Ejercicio 2: Componente Square.js y parte comentada en App.js indicada como "ejercicio 2". Parte final comentada como "Ejercicio 2" de App.css
+
+Ejercicio 3: Componente Clock.js y parte comentada en App.js indicada como "ejercicio 3"
+
+Ejercicio 4: Componente SheepCounter.js (parte comentada) y parte comentada en App.js indicada como "ejercicio 4"
+
+Ejercicio 5: Componente SheepCounter.js (parte sin comentar) y parte comentada en App.js indicada como "ejercicio 5". Parte final comentada como "Ejercicio 5" de App.css
+
+Ejercicio 6: Componente UserInfo.js (parte comentada) y parte comentada en App.js indicada como "ejercicio 6"
+
+Ejercicio 7: Componente FreshFruit.js (parte comentada) y parte comentada en App.js indicada como "ejercicio 7"
