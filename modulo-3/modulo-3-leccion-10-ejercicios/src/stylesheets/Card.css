@@ -1,0 +1,16 @@
+.list__item {
+  list-style-type: none;
+  width: 100%;
+  border-radius: 20px;
+  border: gray 1px solid;
+  padding: 20px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: honeydew;
+}
+.list__item-img {
+  width: 50%;
+}
