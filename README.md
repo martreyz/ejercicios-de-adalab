@@ -40,6 +40,8 @@ The exercises are divided by folders that follow the index bellow:
 13. Array functional methods
 14. Asynchrony and timers
 
+[Repository of the final evaluation of the module](https://github.com/Adalab/modulo-2-evaluacion-final-martreyz)
+
 ## - Module 3 - React
 
 1. ES6 classes
