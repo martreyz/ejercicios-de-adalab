@@ -21,7 +21,7 @@ The exercises are divided by folders that follow the index bellow:
 13. CSS Animations
 14. Accesibility and Design Systems
 
-[Repository of the final evaluation of the module](https://github.com/martreyz/modulo-1-evaluacion-final-martreyz)
+[Repository of the final evaluation of the module](https://github.com/martreyz/modulo-1-evaluacion-final-martreyzz)
 
 ## - Module 2 - JavaScript
 
@@ -40,7 +40,7 @@ The exercises are divided by folders that follow the index bellow:
 13. Array functional methods
 14. Asynchrony and timers
 
-[Repository of the final evaluation of the module](https://github.com/Adalab/modulo-2-evaluacion-final-martreyz)
+[Repository of the final evaluation of the module](https://github.com/martreyz/modulo-2-evaluacion-final-martreyz)
 
 ## - Module 3 - React
 
@@ -58,5 +58,7 @@ The exercises are divided by folders that follow the index bellow:
 12. Components life cycle
 13. JavaScript testing
 14. Refactoring
+
+[Repository of the final evaluation of the module](https://github.com/martreyz/modulo-3-evaluacion-final-martreyz)
 
 Specific requirements for the exercises can be found in: [Adalab](https://books.adalab.es/materiales-front-end-k/)
