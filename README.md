@@ -21,7 +21,7 @@ The exercises are divided by folders that follow the index bellow:
 13. CSS Animations
 14. Accesibility and Design Systems
 
-[Repository of the final evaluation of the module](https://github.com/martreyz/modulo-1-evaluacion-final-martreyzz)
+[Repository of the final evaluation of the module](https://github.com/martreyz/modulo-1-evaluacion-final-martreyz)
 
 ## - Module 2 - JavaScript
 
