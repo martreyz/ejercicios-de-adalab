@@ -61,4 +61,20 @@ The exercises are divided by folders that follow the index bellow:
 
 [Repository of the final evaluation of the module](https://github.com/martreyz/modulo-3-evaluacion-final-martreyz)
 
+## - Module 4 - Node JS
+
+1. Introduction
+2. Comunication between front and back.
+3. Introduction to Node JS
+4. Node JS modules
+5. Nodemon
+6. Introduction to Express JS
+7. Postman
+8. Query params requests
+9. Body params requests
+10. Response types
+11. Static server
+12. Template engines
+
+
 Specific requirements for the exercises can be found in: [Adalab](https://books.adalab.es/materiales-front-end-k/)
