@@ -23,10 +23,13 @@ app.listen(serverPort, () => {
 app.get("/es/film:filmId.html", (req, res) => {
   // get film data
   const filmData = films.find((film) => film.id === req.params.filmId);
+  const infoAwards = filmData.awards || [];
 
   const qParam = {
     year: req.query.adwarsYear,
   };
+
+  console.log(filmData.awards);
 
   const awardsData = filmData.awards.filter(
     (award) => award.year === qParam.year
@@ -39,7 +42,7 @@ app.get("/es/film:filmId.html", (req, res) => {
   filmData.year = filmData.year || "";
   filmData.director = filmData.director || "";
   filmData.country = filmData.country || "";
-  filmData.awards = awardsData || [];
+  filmData.awards = awardsData;
 
   // response with rendered template
   if (filmData) {
@@ -47,4 +50,6 @@ app.get("/es/film:filmId.html", (req, res) => {
   } else {
     res.render("pages/film-not-found");
   }
+
+  filmData.awards = infoAwards;
 });
